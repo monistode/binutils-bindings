@@ -1,6 +1,6 @@
 [package]
 name = "monistode-binutils-bindings"
-version = "0.1.3"
+version = "0.1.4"
 authors = ["rizerphe"]
 edition = "2018"
 description = "WASM bindings for monistode binutils - to allow for assembling on the web"
@@ -15,7 +15,7 @@ default = ["console_error_panic_hook"]
 [dependencies]
 wasm-bindgen = "0.2.84"
 js-sys = "0.3"
-monistode-assemblers = "0.1.4"
+monistode-assemblers = "0.1.5"
 monistode-binutils = "0.1.2"
 
 # The `console_error_panic_hook` crate provides better debugging of panics by
